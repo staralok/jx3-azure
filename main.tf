@@ -1,5 +1,5 @@
 module "cluster" {
-  source                               = "https://github.com/staralok/jx3-k8s"
+  source                               = "https://github.com/staralok/jx3-azure"
   apex_domain_integration_enabled      = var.apex_domain_integration_enabled
   apex_domain                          = var.apex_domain
   subdomain                            = var.subdomain
